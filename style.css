@@ -12,7 +12,7 @@
 .card,.head-info,.avatar,.icon-bar{
     display: grid;
 }
-.head-section,.icons,.like-count{
+.head-section,.icons,.like-count,#container{
     display: flex;
 }
 .icon-bar,.head-section{
@@ -23,6 +23,8 @@
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
+    gap: 20px;
+    flex-wrap: wrap;
 
     padding: 20px;
     margin: 0px;
